@@ -1,0 +1,31 @@
+.title {
+  border-bottom: 1px solid rgba(0,0,0,.15);
+  padding-bottom: .25rem;
+  margin-bottom: .5rem;
+}
+.v-app-bar .v-toolbar__content{
+  background: linear-gradient(45deg, #000, #333);
+}
+.statusbar {
+  width: 3px;
+  height: 2rem;
+  margin-right: 1rem;
+}
+.moduleBtn {
+  cursor: pointer;
+  min-width: 10rem;
+  text-align: center;
+}
+.bigBtn {
+  border-radius: 1rem;
+  padding: 2rem;
+  min-height: 4rem;
+  cursor: pointer;
+  position: relative;
+}
+.bigBtn .v-icon {
+  position: absolute !important;
+  bottom: 0px;
+  right: 0px;
+  font-size: 6rem !important;
+}
